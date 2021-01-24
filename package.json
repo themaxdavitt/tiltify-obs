@@ -1,0 +1,18 @@
+{
+  "name": "@themaxdavitt/tiltify-obs",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "package": "tsc && pkg -t node12-win-x64 -o tiltify-obs.exe ./out/index.js"
+  },
+  "author": "Max Davitt <max@davitt.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "pkg": "^4.4.9",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "got": "^11.8.1"
+  }
+}

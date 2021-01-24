@@ -1,0 +1,5 @@
+node_modules
+out
+.env
+donos.txt
+tiltify-obs.exe
